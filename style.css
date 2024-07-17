@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Container{
+    height: 20px;
+    width: auto;
+    background-color: aquamarine;
+    padding: 20px;
+    justify-content: center;
+
+}
+.ribbon{
+    height: 20px;
+    width: auto;
+    background-color: rgb(57, 67, 211);
+    justify-content: center;
+
+}
