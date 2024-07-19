@@ -47,19 +47,115 @@
 
 
 }
+/*COntent*/
+
 .content{
-    height: 700px;
+    height: 400px;
     width: auto;
     background-color: rgb(239, 209, 181);
     padding: 20px;
-    justify-content: center;
+}
+.images{
+    height: 380px;
+    width: 170px;
+    left:0;
+    margin-left: 20px;
+    margin-top: 12px;
+    position: absolute;
+    background-color: rgb(239, 209, 181);
+}
+.images img{
+    position: absolute;
+    height: 110px; 
+    margin-left: 15px;
+}
+.pic1{
+    margin-top: 15px;
+}
+.pic2{
+    margin-top: 130px;
+}
+.pic3{
+    margin-top: 250px;
+}
+.text{
+    height: 380px;
+    width: 230px;
+    left:0;
+    margin-left: 205px;
+    margin-top: 12px;
+    position: absolute;
+    background-color: rgb(239, 209, 181);
+}
+.text p{
+    font-family: 'Rhodium Libre';
+    font-size: 11px;
+    position: absolute;
+
+}
+.text h2{
+    font-family: 'Righteous';
+    font-size: 20px;
+    position: absolute;
+}
+.contentText1{
+    margin-top: 12px;
+    
+}
+.contentText2{
+    margin-top: 145PX;
+    
+}
+.contentText3{
+    margin-top: 260px;
+    
+}
+.subtext1{
+    margin-top: 45px;
+}
+.subtext2{
+    margin-top: 180px;
+}
+.subtext3{
+    margin-top: 285px;
+}
+.trends{
+    height: 380px;
+    width: 190px;
+    left:0;
+    margin-left: 450px;
+    margin-top: 12px;
+    position: absolute;
+    background-color: rgb(12, 144, 252);
 }
 .quote{
     height: 200px;
     width: auto;
     background-color: rgb(255, 248, 220);
     padding: 20px;
+    position: relative;
 }
+.quoteText1{
+    margin-left: 250px;
+    font-family: 'Kaushan Script';
+    color: rgb(136, 53, 29);
+    font-size: 35px;
+
+}
+.text2{
+    font-family: 'Rhodium Libre';
+    color: rgb(136, 53, 29);
+    font-size: 30px;
+}
+.justbreath{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    position: absolute;
+    border-color:  solid #000000 2px;
+}
+
 
 .wellness{
     left: 0;
@@ -114,13 +210,12 @@
     width: auto;
     background-color: rgb(173, 149, 103);
     padding: 20px;
-    justify-content: center;
 }
 .allrights{
     position: absolute;
-    margin-left: 220px;
-    font-size: 20px;
+    margin-left: 240px;
+    font-size: 15px;
     font-family: "Abel";
     color: #f0f0f0;
-    bottom: 9px;
+    bottom: 20px;
 }
