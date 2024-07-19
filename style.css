@@ -3,32 +3,48 @@
     padding: 0;
 }
 .Container{
-    display: flex;
-    align-items: center;
+    position: relative;
+    width: 650px;
+    background-color: antiquewhite;
+}
+.Menu{
     height: 30px;
-    width: 100%;
+    width: auto;
     background-color: rgb(162, 137, 93);
     padding: 5px;
-    justify-content: center;
+    text-align: center;
+    position: relative;
+}
+/*Title*/
+.shape{
+    height: 200px;
+    width: 200px;
+    background-color: rgba(243, 219, 195, 0.836);
+    position: absolute;
+    margin-top: -18px;
+    margin-left: 430px;
+    border-bottom-left-radius: 550px;
+    border-top-left-radius: 0px;
+    
 
 }
 .title{
-    height: 350px;
+    height: 300px;
     width: auto;
     background-color: rgb(247, 230, 210);
     padding: 20px;
-    display: flex;
-    justify-content: center;
     align-items: center;
 }
 .head{
-    position: relative;
-    width: 400px;
+    position: absolute;
+    width: 350px;
+    left: 0;
+    margin-left: 155px;
 }
 .head img{
     width: 100%;
     height: auto;
-    display: block;
+
 
 }
 .content{
@@ -43,8 +59,56 @@
     width: auto;
     background-color: rgb(255, 248, 220);
     padding: 20px;
-    justify-content: center;
 }
+
+.wellness{
+    left: 0;
+    font-size: 19px;
+    font-family: "Paytone One";
+    position: absolute;
+}
+.titlefirst{
+    color: rgb(202, 184, 119);
+}
+.titlesecond{
+    color: #f0f0f0;
+}
+.home, .about, .team, .blog, .contactus{
+    position: absolute;
+    margin-top: 8px;
+    right: 0;
+    font-size: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.home{
+    margin-right: 256px;
+    position: absolute;
+    width: 330px;
+    color: rgb(242, 244, 247);
+    font-family: "Abel";
+}
+.about{
+    margin-right: 350px;
+    color: rgb(242, 244, 247);
+    font-family: "Abel";
+}
+.team{
+    margin-right: 280px;
+    color: rgb(242, 244, 247);
+    font-family: "Abel";
+}
+.blog{
+    margin-right: 230px;
+    color: rgb(242, 244, 247);
+    font-family: "Abel";
+}
+.contactus{
+    margin-right: 145px;
+    color: rgb(242, 244, 247);
+    font-family: "Abel";
+}
+/*Lastpart*/
 .footer{
     height: 5px;
     width: auto;
@@ -52,39 +116,11 @@
     padding: 20px;
     justify-content: center;
 }
-.wellness{
-    text-align: left;
-    font-size: Large;
-    color: rgb(255, 255, 255);
-    font-family: "Paytone One";
-}
-.home{
-    margin: 5px;
-    font-size: small;
-    color: rgb(242, 244, 247);
+.allrights{
+    position: absolute;
+    margin-left: 220px;
+    font-size: 20px;
     font-family: "Abel";
-}
-.about{
-    margin: 5px;
-    font-size: small;
-    color: rgb(242, 244, 247);
-    font-family: "Abel";
-}
-.team{
-    margin: 5px;
-    font-size: small;
-    color: rgb(242, 244, 247);
-    font-family: "Abel";
-}
-.blog{
-    margin: 5px;
-    font-size: small;
-    color: rgb(242, 244, 247);
-    font-family: "Abel";
-}
-.contactus{
-    margin: 5px;
-    font-size: small;
-    color: rgb(242, 244, 247);
-    font-family: "Abel";
+    color: #f0f0f0;
+    bottom: 9px;
 }
