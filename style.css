@@ -4,7 +4,7 @@
 }
 .Container{
     position: relative;
-    width: 650px;
+    width: 625px;
     background-color: antiquewhite;
 }
 .Menu{
@@ -18,7 +18,7 @@
 /*Title*/
 .shape{
     height: 200px;
-    width: 200px;
+    width: 175px;
     background-color: rgba(243, 219, 195, 0.836);
     position: absolute;
     margin-top: -18px;
@@ -50,7 +50,7 @@
 /*COntent*/
 
 .content{
-    height: 400px;
+    height: 380px;
     width: auto;
     background-color: rgb(239, 209, 181);
     padding: 20px;
@@ -70,10 +70,10 @@
     margin-left: 15px;
 }
 .pic1{
-    margin-top: 15px;
+    margin-top: -10px;
 }
 .pic2{
-    margin-top: 130px;
+    margin-top: 120px;
 }
 .pic3{
     margin-top: 250px;
@@ -82,7 +82,7 @@
     height: 380px;
     width: 230px;
     left:0;
-    margin-left: 205px;
+    margin-left: 190px;
     margin-top: 12px;
     position: absolute;
     background-color: rgb(239, 209, 181);
@@ -117,17 +117,89 @@
     margin-top: 180px;
 }
 .subtext3{
-    margin-top: 285px;
+    margin-top: 296px;
 }
+/*trends*/
 .trends{
     height: 380px;
-    width: 190px;
+    width: 160px;
     left:0;
-    margin-left: 450px;
-    margin-top: 12px;
+    margin-left: 443px;
+    margin-top: 10px;
     position: absolute;
-    background-color: rgb(12, 144, 252);
+    background-color: rgb(252, 239, 212);
 }
+.boxtrends{
+    height: 30px;
+    width: 120px;
+    position: relative;
+    background-color: rgb(178, 147, 99);
+    margin-left: 21px;
+    margin-top: -15px;
+}
+.trendsText{
+    font-family: 'Righteous';
+    color: #f0f0f0;
+    position: absolute;
+    font-size: 20px;
+    margin-left: 23px;
+    margin-top: 3px;
+}
+.trendsContent{
+    position: absolute;
+}
+.trendsContent p{
+ font-size: 10px;
+}
+.trendsContent h2{
+    font-size: 16px;
+    font-family: 'Rhodium Libre';
+    position: relative;
+    color: #313131;
+}
+.sites1{
+   margin-left: 18px;
+   margin-top: 13px;
+}
+.sites2{
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.sites3{
+    margin-left: 18px;
+    margin-top: 10px;
+}
+.trendsContent img{
+    position: relative;
+}
+.pc1{
+    height: 88px;
+    width: 93px;
+    margin-top: 2px;
+    margin-left: 38px;
+}
+.pc2{
+    height: 88px;
+    width: 117px;
+    margin-top: 2px;
+    margin-left: 23px; 
+}
+.pc3{
+    height: 34px;
+    width: 100px;
+    margin-top: 4px;
+    margin-left: 32px; 
+}
+
+.t1{
+  margin-left: 35px;
+}
+.t2{
+    margin-left: 50px;
+} 
+
+
+/*quote*/
 .quote{
     height: 200px;
     width: auto;
@@ -147,13 +219,34 @@
     color: rgb(136, 53, 29);
     font-size: 30px;
 }
-.justbreath{
-    height: 200px;
-    width: 200px;
+.justbreathe{
+    height: 190px;
+    width: 190px;
+    border: 5px solid black;
     border-radius: 50%;
-    background-color: blueviolet;
+    border-color: #f0f0f0;
+    margin-left: 15px;
+    background-color: rgb(176, 148, 100);
     position: absolute;
-    border-color:  solid #000000 2px;
+   
+    
+}
+.just{
+    font-family: 'Abel';
+    font-size: 40px;
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 55px;
+    color: #f0f0f0;
+}
+.breathe{
+    font-family: 'Abel';
+    font-size: 40px;
+    position: absolute;
+    text-decoration: underline;
+    margin-top: 85px;
+    margin-left: 25px;
+    color: #f0f0f0;
 }
 
 
@@ -217,5 +310,5 @@
     font-size: 15px;
     font-family: "Abel";
     color: #f0f0f0;
-    bottom: 20px;
+    bottom: 12px;
 }
