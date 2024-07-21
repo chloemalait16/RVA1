@@ -261,12 +261,19 @@
     font-family: 'Abel';
     font-size: 40px;
     position: absolute;
-    text-decoration: underline;
     margin-top: 79px;
     margin-left: 18px;
     color: #f0f0f0;
 }
-
+.line{
+    border: none;
+    height: 2px;
+    background-color: #f0f0f0;
+    margin: 20px;
+    width: 120px;
+    margin-top: 125px;
+    margin-left: 30px;
+}
 
 /*title part*/
 .wellness{

@@ -42,230 +42,258 @@
     border-top-left-radius: 500px;
 }
 .title{
-    height: 258px;
+    height: 120px;
     width: auto;
-    background-color: rgb(247, 230, 210);
+    background-color: rgb(239, 209, 181);
     padding: 20px;
     align-items: center;
 }
-.head{
-    position: absolute;
-    width: 350px;
-    left: 0;
-    margin-left: 140px;
+.support{
+    font-size: 20px;
+    font-family:'Frijole';
+    margin-left: 120px;
+    color:rgb(226, 112, 50) ;
 }
-.head img{
-    width: 100%;
-    height: auto;
+.textsupport{
+    font-size: 11px;
+    font-family:'Rhodium Libre';
+    color:rgb(0, 0, 0) ;
+    margin-left: 30px;
+    margin-top: 16px;
+}
 
 
-}
+
 /*COntent*/
-
 .content{
-    height: 380px;
-    width: auto;
-    background-color: rgb(239, 209, 181);
-    padding: 20px;
+    height: 730px;
+    background-color: rgb(248, 229, 212);
+    position: relative;
 }
-.images{
-    height: 380px;
+
+.meet{
+    font-size:29px ;
+    font-family: 'Righteous';
+    color:rgb(44, 160, 151) ;
+    letter-spacing: 19px;
+    word-spacing: 10px;
+    margin-left: 62px;
+    margin-top: 15px;
+    position: absolute;
+}
+.rec1, .rec2, .rec3, .rec4, .rec5, .rec6{
+    position: absolute;
+    border-radius: 8%;
+    margin-top: 120px;
+    margin: 20px;
+    background-color: rgb(217, 187, 136); 
+
+}
+.circle1, .circle2, .circle3, .circle4, .circle5, .circle6{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    position: relative;
+}
+.rec1{
+    position: absolute;
+    left: 10px;
+    height: 260px;
     width: 170px;
-    left:0;
-    margin-left: 20px;
-    margin-top: 12px;
-    position: absolute;
-    background-color: rgb(239, 209, 181);
+    margin-top: 130px;
+
 }
-.images img{
+.circle1{
+   margin-left: 23px;
+   margin-top: -50px;
+   background-color: rgb(254, 248, 220);
+}
+
+.rec2{
     position: absolute;
-    height: 110px; 
-    margin-left: 15px;
+    margin-left: 205px;
+    height: 260px;
+    width: 170px;
+    margin-top: 130px;
+}
+
+.circle2{
+    margin-left: 23px;
+    margin-top: -54px;
+}
+.rec3{
+    position: absolute;
+    margin-left: 400px;
+    height: 260px;
+    width: 170px;
+    margin-top: 130px;
+}
+.circle3{
+    margin-left: 23px;
+    margin-top: -54px;
+    background-color: rgb(254, 248, 220);
+}
+.rec4{
+    position: absolute;
+    left: 10px;
+    height: 260px;
+    width: 170px;
+    margin-top: 460px;
+
+}
+.circle4{
+    margin-left: 23px;
+    margin-top: -54px;
+}
+.rec5{
+    position: absolute;
+    margin-left: 205px;
+    height: 260px;
+    width: 170px;
+    margin-top: 460px;
+}
+.circle5{
+    margin-left: 23px;
+    margin-top: -54px;
+    background-color: rgb(254, 249, 220);
+}
+.rec6{
+    position: absolute;
+    margin-left: 400px;
+    height: 260px;
+    width: 170px;
+    margin-top: 460px;
+}
+.circle6{
+    margin-left: 23px;
+    margin-top: -54px;
+}
+.pic1, .pic2, .pic3, .pic4, .pic5, .pic6{
+    height: 120px;
+    width: 120px;
+    border-radius: 50%;
+    position: absolute;
 }
 .pic1{
-    margin-top: -10px;
+    margin-top: 0px;
 }
 .pic2{
-    margin-top: 120px;
+    margin-top: 0px;
 }
 .pic3{
-    margin-top: 250px;
+    margin-top: 0px;
 }
-.text{
-    height: 380px;
-    width: 230px;
-    left:0;
-    margin-left: 190px;
-    margin-top: 12px;
-    position: absolute;
-    background-color: rgb(239, 209, 181);
+.pic5{
+    margin-top: -10px;
+    margin-left: -7px;
+    height:140px;
+    width: 140px;
 }
-.text p{
-    font-family: 'Rhodium Libre';
-    font-size: 11px;
-    position: absolute;
 
+.content h3{
+    font-family: 'Kaushan Script';
+    color: rgb(198, 103, 40);
+    font-size: 30px;
+    letter-spacing: 3px;
 }
-.text h2{
-    font-family: 'Righteous';
-    font-size: 20px;
+.content h2{
+    font-family: 'Red Rose';
+    color: rgb(34, 108, 85);
+    font-size: 15px;
+    letter-spacing: 3px;
+    margin-top: -7px;
+}
+.content p{
     position: absolute;
+    font-size: 9px;
+    margin: 9px;
+    bottom:0;
+    margin-bottom: 20px;
+    font-family: 'Rhodium Libre';
+    color: #fff9f9;
 }
-.contentText1{
-    margin-top: 12px;
-    
+.name1{
+    margin-top: -25px;
+    margin-left: 25px;
+    position: relative;
 }
-.contentText2{
-    margin-top: 145PX;
-    
+.name2{
+    margin-top: -25px;
+    margin-left: 35px;
+    position: relative;
 }
-.contentText3{
-    margin-top: 260px;
-    
+.name3{
+    margin-top: -25px;
+    margin-left: 20px;
+    position: relative;
+}
+.name4{
+    margin-top: -25px;
+    margin-left: 35px;
+    position: relative;
+}
+.name5{
+    margin-top: -25px;
+    margin-left: 20px;
+    position: relative;
+}
+.name6{
+    margin-top: -25px;
+    margin-left: 25px;
+    position: relative;
 }
 .subtext1{
-    margin-top: 45px;
+    margin-left: 60px;
 }
 .subtext2{
-    margin-top: 180px;
+    margin-left: 29px;
 }
 .subtext3{
-    margin-top: 296px;
+    margin-left: 42px;
 }
-/*trends*/
-.trends{
-    height: 380px;
-    width: 160px;
-    left:0;
-    margin-left: 443px;
-    margin-top: 10px;
-    position: absolute;
-    background-color: rgb(252, 239, 212);
-}
-.boxtrends{
-    height: 30px;
-    width: 120px;
-    position: relative;
-    background-color: rgb(178, 147, 99);
-    margin-left: 21px;
-    margin-top: -15px;
-}
-.trendsText{
-    font-family: 'Righteous';
-    color: #f0f0f0;
-    position: absolute;
-    font-size: 20px;
-    margin-left: 23px;
-    margin-top: 3px;
-}
-.trendsContent{
-    position: absolute;
-}
-.trendsContent p{
- font-size: 10px;
-}
-.trendsContent h2{
-    font-size: 16px;
-    font-family: 'Rhodium Libre';
-    position: relative;
-    color: #313131;
-}
-.sites1{
-   margin-left: 18px;
-   margin-top: 13px;
-}
-.sites2{
+.subtext4{
     margin-left: 18px;
-    margin-top: 10px;
 }
-.sites3{
-    margin-left: 18px;
-    margin-top: 10px;
-}
-.trendsContent img{
-    position: relative;
-}
-.pc1{
-    height: 88px;
-    width: 93px;
-    margin-top: 2px;
-    margin-left: 38px;
-}
-.pc2{
-    height: 88px;
-    width: 117px;
-    margin-top: 2px;
-    margin-left: 23px; 
-}
-.pc3{
-    height: 34px;
-    width: 100px;
-    margin-top: 4px;
-    margin-left: 32px; 
-}
-
-.t1{
-  margin-left: 35px;
-}
-.t2{
+.subtext5{
     margin-left: 50px;
-} 
-
-
-/*quote*/
-.quote{
+}
+.subtext6{
+    margin-left: 23px;
+}
+.design1{
+    position: absolute;
+    height: 500px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgb(227, 196, 167);
+    opacity: 40%;
+    margin-left: -275px;
+    margin-top: -40px;
+}
+.design2{
+    position: absolute;
+    height: 450px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: rgb(227, 196, 167);
+    opacity: 35%;
+    margin-left: -250px;
+    margin-top: 260px;
+}
+.design3{
+    position: absolute;
     height: 200px;
-    width: auto;
-    background-color: rgb(255, 248, 220);
-    padding: 20px;
-    position: relative;
+    width: 200px;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 100%;
+    background-color: rgb(227, 196, 167);
+    opacity: 40%;
+    right: 0;
+    margin-right: -100px;
+    margin-top: -20px;
 }
-.quoteText1{
-    margin-left: 255px;
-    font-family: 'Kaushan Script';
-    color: rgb(136, 53, 29);
-    font-size: 35px;
 
-}
-.text2{
-    font-family: 'Rhodium Libre';
-    color: rgb(136, 53, 29);
-    font-size: 30px;
-}
-.justbreathe{
-    height: 191px;
-    width: 191px;
-    border-radius: 50%;
-    margin-left: 15px;
-    background-color: rgb(176, 148, 100);
-    position: absolute;
-}
-.innercircle{
-    height: 175px;
-    width: 175px;
-    border: 5px solid rgb(240, 237, 237);
-    border-radius: 50%;
-    margin-left: 3px;
-    margin-top: 3px;
-    position: absolute;
-}
-.just{
-    font-family: 'Abel';
-    font-size: 40px;
-    position: absolute;
-    margin-top: 38px;
-    margin-left: 47px;
-    color: #f0f0f0;
-}
-.breathe{
-    font-family: 'Abel';
-    font-size: 40px;
-    position: absolute;
-    text-decoration: underline;
-    margin-top: 79px;
-    margin-left: 18px;
-    color: #f0f0f0;
-}
 
 
 /*title part*/
@@ -293,13 +321,14 @@
 .home{
     margin-right: 400px;
     height: 20px;
-    margin-top: -4px;
+    margin-top: -2px;
     position: absolute;
     width: 30px;
+    background-color: rgba(161, 136, 93, 0);
     padding: 10px;
-    color: rgb(0, 0, 0);
+    color: rgb(250, 248, 248);
     font-family: "Abel";
-    background-color: rgb(235, 215, 142);
+    
 }
 .about{
     margin-right: 350px;
@@ -308,8 +337,14 @@
 }
 .team{
     margin-right: 280px;
-    color: rgb(242, 244, 247);
+    color: rgb(0, 0, 0);
     font-family: "Abel";
+    background-color: rgb(235, 215, 142);
+    padding: 10px;
+    margin-top: -5px;
+    margin-right: 273px;
+    height: 20px;
+
 }
 .blog{
     margin-right: 230px;
