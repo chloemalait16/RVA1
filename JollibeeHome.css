@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: auto;
+    height: 1500px;
+    background-color: rgb(255, 255, 255);
+}
+.Menu{
+    height: 100px;
+    width: auto;
+    background-color: rgb(214, 0, 28);
+    
+}
+.logo{
+   
+    height: 75px;
+    width: 300px;
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.line{
+    height: 10px;
+    width: auto;
+    background-color: rgb(255, 149, 32);
+}
+
