@@ -10,8 +10,30 @@ body{
 .Menu{
     height: 100px;
     width: auto;
+    position: relative;
     background-color: rgb(214, 0, 28);
-    
+}
+.Menu > ul{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    text-align: justify;
+    right: 0;
+}
+.Menu > ul > li{
+    list-style-type: none;
+    margin: 0 -15px;
+}
+.Menu > ul > li > p{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    font-family: 'M PLUS Rounded 1c';
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    margin-top: -70px;
+    margin-right: 300px;
 }
 .logo{
    
@@ -24,5 +46,10 @@ body{
     height: 10px;
     width: auto;
     background-color: rgb(255, 149, 32);
+}
+.banner{
+    height: 100px;
+    width: auto;
+    background-color: ;
 }
 
